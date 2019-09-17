@@ -9,3 +9,5 @@ from nltk import word_tokenize
 >>> mysent_tokens = word_tokenize(mysent)
 >>> mysent_tokens
 ['the', 'cat', 'sat', 'on', 'the', 'mat', '.']
+len(mysent_tokens)
+7
