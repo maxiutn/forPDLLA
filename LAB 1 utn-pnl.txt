@@ -1,13 +1,16 @@
-from nltk import re
-frase = "esto es una frase compuesta por palabras"
->>> n = re.search("se",frase)
->>> n.start()
-15
+Hilo 1 (klt)
+----
 
-from nltk import word_tokenize
->>> mysent = "the cat sat on the mat."
->>> mysent_tokens = word_tokenize(mysent)
->>> mysent_tokens
-['the', 'cat', 'sat', 'on', 'the', 'mat', '.']
-len(mysent_tokens)
-7
+Nadie_Te_Invito = leerArch(Arch);
+
+Hilo 2 (ult)
+----
+
+Nadie_Te_Invito = getToken();
+escribirPropuesta(Arch);
+
+Hilo 3 (ult)
+----
+
+Nadie_Te_Invito = getToken();
+escribirPropuesta(Arch);
